@@ -1,0 +1,17 @@
+# Maven Build output (Compiled JARs)
+target/
+
+# Maven Build Configuration (Per your request)
+pom.xml
+
+# IDE Specific Files (IntelliJ/Eclipse/VSCode)
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+
+# OS Junk
+.DS_Store
+Thumbs.db
