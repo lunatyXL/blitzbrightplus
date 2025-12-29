@@ -4,13 +4,11 @@ main: in.lunaty.asher.BlitzBrightPlus
 api-version: 1.21
 commands:
   fb:
-    description: Toggle night vision
-    usage: /fb [reload]
-    aliases: [light, nightvision, bbp]
+    description: Toggle Brightness
+    usage: /fb
+    aliases: [blitzbright, light]
 permissions:
   blitzbright.use:
-    description: Default permission to use the toggle
     default: true
   blitzbright.reload:
-    description: Allows reloading the config
     default: op

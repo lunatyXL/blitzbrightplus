@@ -13,14 +13,16 @@ public class BlitzBrightPlus extends JavaPlugin {
     public void onEnable() {
         saveDefaultConfig();
         this.h = new Handler(this);
-        
-        // Register generic bridge and hook
+
         getCommand("fb").setExecutor(new Bridge(this, h));
         getServer().getPluginManager().registerEvents(new Hook(h), this);
     }
 
     @Override
     public void onDisable() {
+        if (h != null) {
+            h.shutdown();
+        }
         this.h = null;
     }
 }

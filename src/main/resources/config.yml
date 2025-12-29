@@ -1,0 +1,12 @@
+# BlitzBrightPlus Configuration
+
+# Ticks to wait before applying effects on Join/WorldChange.
+# 20 ticks = 1 second. Fixes "flashing" or desync bugs.
+apply-delay-ticks: 20
+
+messages:
+  prefix: "&8[&e⚡&8] &r"
+  enabled: "&aNight Vision &lENABLED"
+  disabled: "&cNight Vision &lDISABLED"
+  reload: "&bConfig reloaded."
+  no-permission: "&cNo Permission."
